@@ -35,7 +35,7 @@ cat << EOF > /usr/local/etc/xray/config.json
                 "network": "ws",
                 "allowInsecure": false,
                 "wsSettings": {
-                  "path": "/$ID-vless"
+                  "path": "/$ID-vless?ed=2048"
                 }
             }
         },
@@ -56,7 +56,7 @@ cat << EOF > /usr/local/etc/xray/config.json
                 "network": "ws",
                 "allowInsecure": false,
                 "wsSettings": {
-                  "path": "/$ID-trojan"
+                  "path": "/$ID-trojan?ed=2048"
                 }
             }
         }
